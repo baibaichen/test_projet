@@ -1,8 +1,11 @@
 package com.chang.pandas
 
-/**
-  * Created by chenchang on 2017/4/7.
-  */
-object Pandas {
+import org.apache.spark.sql.DataFrame
 
+
+object Pandas {
+  def concat(left: DataFrame, right: DataFrame): DataFrame = {
+
+    null
+  }
 }
